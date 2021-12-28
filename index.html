@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Keywords"
+      content="Туры по всей стране, экскурсии, исторические памятники, замечательные виды"
+    />
+    <meta
+      name="description"
+      content="Туристическое агенство TravelBy предоставляет экскурсии по самым красивым местам нашей страны"
+    />
+    <title>TravelBy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo">
+        <i class="fas fa-paper-plane"></i>TravelBy
+      </a>
+      <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="#home"
+          >Домашняя</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">О нас</a>
+        <a data-aos="zoom-in-left" data-aos-delay="600" href="#destination"
+          >Туры</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="#services"
+          >Услуги</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery"
+          >Галерея</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="1150" href="#blogs"
+          >Отзывы</a
+        >
+      </nav>
+      <a
+        data-aos="zoom-in-left"
+        data-aos-delay="1300"
+        href="#book-form"
+        class="btn"
+        id="header-btn"
+        >Заказать сейчас</a
+      >
+    </header>
+    <div id="modal-wrapper">
+      <div id="modal">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          laborum harum sapiente quod quas quibusdam, id ratione quisquam
+          nostrum quo ducimus accusamus voluptate consequatur, est ut omnis
+          odit! Eaque beatae voluptates, aut eligendi quae necessitatibus,
+          reiciendis architecto quam vitae molestias consequatur officiis
+          assumenda soluta eveniet voluptate eius, pariatur rem? Perspiciatis.
+        </p>
+        <button class="closeModal">закрыть</button>
+      </div>
+    </div>
+    <section class="home" id="home">
+      <div class="content">
+        <span data-aos="fade-up" data-aos-delay="150">Следуй за Мечтой</span>
+        <h3 data-aos="fade-up" data-aos-delay="300">Изучай Неизвестное</h3>
+        <p data-aos="fade-up" data-aos-delay="450">
+          Закрыты границы в эпоху короновируса, а путешествовать хочется?Не
+          беда! Наша компания предоставляет возможность посетить лучшие места
+          Беларуси, архитектурные памятники, посмотреть красоты нашей природы.
+          Ваш инстаграм взорвется от лайков.
+        </p>
+        <a data-aos="fade-up" data-aos-delay="600" href="#" class="btn"
+          >Записаться сейчас</a
+        >
+      </div>
+    </section>
+    <section class="book-form" id="book-form">
+      <form action="">
+        <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
+          <span>Куда?</span>
+          <input type="text" placeholder="место назначения" value="" />
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="300" class="inputBox">
+          <span>Когда?</span>
+          <input type="date" value="" />
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="450" class="inputBox">
+          <span>На сколько?</span>
+          <input type="number" placeholder="количество дней" value="" min="0" />
+        </div>
+        <input
+          data-aos="zoom-in"
+          data-aos-delay="600"
+          type="submit"
+          value="найти"
+          class="btn"
+        />
+      </form>
+    </section>
+    <section class="about" id="about">
+      <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+        <video src="images/v3.mp4" muted autoplay loop class="video"></video>
+        <div class="controls">
+          <span class="control-btn" data-src="images/v3.mp4" id="11"></span>
+          <span class="control-btn" data-src="images/v2.mp4" id="12"></span>
+          <span class="control-btn" data-src="images/v1.mp4" id="13"></span>
+        </div>
+      </div>
+      <div class="content" data-aos="fade-left" data-aos-delay="600">
+        <span>Почему именно мы?</span>
+        <h3>Уникальные туры по самым красивым местам нашей страны</h3>
+        <p>
+          Отправьтесь в путешествие по самым красивым и историческим местам,
+          узнайте историю своей страны
+        </p>
+        <a class="btn" id="aboutBtn">Подробней</a>
+      </div>
+    </section>
+    <section class="destination" id="destination">
+      <div class="heading">
+        <span>Наши туры</span>
+        <h1>Сделай свой выбор</h1>
+      </div>
+      <div class="box-container">
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+          <div class="image">
+            <img src="images/mirskiyZamok.jpg" alt="Мирский замок" />
+          </div>
+          <div class="content">
+            <h3>Мирский замок</h3>
+            <p>
+              Замок XVI–XX веков, английский пейзажный парк с прудом,
+              придорожная часовня, флигель, домик сторожа, 39 экспозиционных и
+              выставочных залов
+            </p>
+            <a href="#">подробней <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+          <div class="image">
+            <img src="images/belovezjskayaPuwa.jpg" alt="Беловежская Пуща" />
+          </div>
+          <div class="content">
+            <h3>Беловежская пуща</h3>
+            <p>
+              Флора Беловежской пущи богата и разнообразна. Более 250 видов птиц
+              из 310. Это больше, чем в любов другом национальном парке нашей
+              страны
+            </p>
+            <a href="#">подробней <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+          <div class="image">
+            <img src="images/brestskayaKrepost.jpg" alt="Бресткая Крепость" />
+          </div>
+          <div class="content">
+            <h3>Бресткая крепость</h3>
+            <p>
+              Брестская крепость – одно из знаковых мест Беларуси, символ
+              советского сопротивления во время Второй мировой войны. Построена
+              в XIX веке
+            </p>
+            <a href="#">подробней <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+          <div class="image">
+            <img src="images/Nesvij.jpg" alt="Несвижский замок" />
+          </div>
+          <div class="content">
+            <h3>Несвижский замок</h3>
+            <p>
+              Дворцово-замковый комплекс, находящийся в северо-восточной части
+              города Несвижа в Минской области Беларуси, памятник архитектуры
+              XVI—XVIII веков
+            </p>
+            <a href="#">подробней <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="750">
+          <div class="image">
+            <img src="images/melovie.jpg" alt="Меловые карьеры" />
+          </div>
+          <div class="content">
+            <h3>Меловые карьеры</h3>
+            <p>
+              Бирюзово-лазурная вода и белые крутые берега делают это место
+              привлекательным в первую очередь своим видом. Успей посетить
+              Белорусские Мальдивы
+            </p>
+            <a href="#">подробней <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="900">
+          <div class="image">
+            <img src="images/soligorskieGori.jpg" alt="Солигорские горы" />
+          </div>
+          <div class="content">
+            <h3>Солигорские горы</h3>
+            <p>
+              Рукотворные «горы», некоторые высотой до 120 метров, заняли
+              территорию в несколько гектаров. На подъезде к ним открываются
+              поистине величественные виды
+            </p>
+            <a href="#">подробней <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="1150">
+          <div class="image">
+            <img src="images/bashnya.jpg" alt="Каменецкая башня" />
+          </div>
+          <div class="content">
+            <h3>Каменецкая башня</h3>
+            <p>
+              Хорошо сохранившаяся оборонительная башня волынского типа исамая
+              высокая(около 31 метра). Построена в 1271—1288 годах. Башня
+              является мемориалом
+            </p>
+            <a href="#">подробней <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="1300">
+          <div class="image">
+            <img src="images/polesse.jpg" alt="полесье" />
+          </div>
+          <div class="content">
+            <h3>Полесье</h3>
+            <p>
+              Полесье – особенный регион. Ему удалось сохранить все традиции в
+              натуральном, а не отглаженном идеологами виде. Площадь составляет
+              около 130 тыс. км²
+            </p>
+            <a href="#">подробней <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="heading">
+        <span>Наши Услуги</span>
+        <h1>Незабываемый опыт</h1>
+      </div>
+      <div class="box-container">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+          <i class="fas fa-bus"></i>
+          <h3>Транспорт</h3>
+          <p>
+            Наши комфортные автобусы и маршрутки доставят вас в любую точку
+            страны
+          </p>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+          <i class="fas fa-hiking"></i>
+          <h3>Незабываемые приключения</h3>
+          <p>
+            Дикая природа, исторические памятники, мемориальные комплексы не
+            оставят вас равнодушными
+          </p>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+          <i class="fas fa-utensils"></i>
+          <h3>Еда и напитки</h3>
+          <p>Наши туры предусматривают трехразовое питание</p>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
+          <i class="fas fa-hotel"></i>
+          <h3>Комфортные отели</h3>
+          <p>Все необходимое для отдыха вы сможете найти в наших отелях</p>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
+          <i class="fas fa-wallet"></i>
+          <h3>Приемлемые цены</h3>
+          <p>
+            Наши туры может позволить себе любой человек. Лучшие цены в Беларуси
+          </p>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="900">
+          <i class="fas fa-headset"></i>
+          <h3>Поддержка 24/7</h3>
+          <p>Свяжитесь с нами, и мы обязательно вам ответим</p>
+        </div>
+      </div>
+    </section>
+    <section class="gallery" id="gallery">
+      <div class="heading">
+        <span>Наша галерея</span>
+        <h1>Самые красивые фото для вашего инстаграма</h1>
+      </div>
+      <div class="box-container">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+          <img src="images/maldiviGallery1.jpg" alt="" />
+          <span>Место путешествия</span>
+          <h3>Меловые карьеры</h3>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="images/maldiviGallery2.jpg" alt="" />
+          <span>Место путешествия</span>
+          <h3>Меловые карьеры</h3>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+          <img src="images/polesseGalery.jpg" alt="" />
+          <span>Место путешествия</span>
+          <h3>Полесье</h3>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+          <img src="images/mirskiyGallery.jpg" alt="" />
+          <span>Место путешествия</span>
+          <h3>Мирский замок</h3>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="images/bashnyaGallery.jpg" alt="" />
+          <span>Место путешествия</span>
+          <h3>Каменецкая башня</h3>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+          <img src="images/krepostGallery.jpg" alt="" />
+          <span>Место путешествия</span>
+          <h3>Брестская крепость</h3>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+          <img src="images/volkoviskGallery.jpg" alt="" />
+          <span>Место путешествия</span>
+          <h3>Волковыск</h3>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="images/puwaGallery.jpg" alt="" />
+          <span>Место путешествия</span>
+          <h3>Беловежская пуща</h3>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+          <img src="images/gallery-img-9.jpg" alt="" />
+          <span>Место путешествия</span>
+          <h3>Белорусская деревня</h3>
+        </div>
+      </div>
+    </section>
+    <section class="blogs" id="blogs">
+      <div class="heading">
+        <span>Отзывы</span>
+        <h1>Поделись своими впечатлениями</h1>
+      </div>
+      <div class="box-container">
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+          <div class="image">
+            <img src="images/maldiviBlog.jpg" alt="Меловые карьеры" />
+          </div>
+          <div class="content">
+            <a href="#" class="link">Белорусские Мальдивы - это сказка</a>
+            <p>
+              Прекрасные виды, замечательная вода, в которой так и хочется
+              искупаться
+            </p>
+            <div class="icon">
+              <a href="#"><i class="fas fa-clock"></i> 21 июня, 2021</a>
+              <a href="#"><i class="fas fa-user"></i> Пользователь</a>
+            </div>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+          <div class="image">
+            <img src="images/puwaBlog.jpg" alt="Беловежская пуща" />
+          </div>
+          <div class="content">
+            <a href="#" class="link">Дед Мороз ждет тебя</a>
+            <p>
+              Ожившей сказкой Беловежской пущи является «Поместье белорусского
+              Деда Мороза»
+            </p>
+            <div class="icon">
+              <a href="#"><i class="fas fa-clock"></i> 3 января, 2020</a>
+              <a href="#"><i class="fas fa-user"></i> Пользователь1</a>
+            </div>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+          <div class="image">
+            <img src="images/mirskiyBlog.jpg" alt="Мирский замок" />
+          </div>
+          <div class="content">
+            <a href="#" class="link">Почувствовал себя рыцарем</a>
+            <p>
+              Сегодня довелось поучавствовать в рыцарском турнире. Незабываемые
+              впечатления и эмоции. Всем рекомендую
+            </p>
+            <div class="icon">
+              <a href="#"><i class="fas fa-clock"></i> 10 сентября, 2020</a>
+              <a href="#"><i class="fas fa-user"></i> Пользователь2</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="banner">
+      <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+        <span>Начни свои приключения</span>
+        <h3>Исследуй свою страну</h3>
+        <p>
+          Хватит раздумывать, пора отправляться в путь. Если не можете решиться,
+          то наши сотрудники обязательно вам помогут, просто свяжитесь с нами
+        </p>
+        <a href="#book-form" class="btn">записаться сейчас</a>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="box-container">
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+          <a href="#" class="logo">
+            <i class="fas fa-paper-plane"></i>TravelBy
+          </a>
+          <p>Cоциальные сети</p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-vk"></a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+          <h3>Ссылки</h3>
+          <a href="#home" class="links">
+            <i class="fas fa-arrow-right"></i> Домашняя
+          </a>
+          <a href="#about" class="links">
+            <i class="fas fa-arrow-right"></i> О нас
+          </a>
+          <a href="#destination" class="links">
+            <i class="fas fa-arrow-right"></i> Туры
+          </a>
+          <a href="#services" class="links">
+            <i class="fas fa-arrow-right"></i> Услуги
+          </a>
+          <a href="#gallery" class="links">
+            <i class="fas fa-arrow-right"></i> Галерея
+          </a>
+          <a href="#blogs" class="links">
+            <i class="fas fa-arrow-right"></i> Отзывы
+          </a>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+          <h3>Контакты</h3>
+          <p><i class="fas fa-map"></i> Могилев, Беларусь</p>
+          <p><i class="fas fa-phone"></i> +375(25) 111-22-33</p>
+          <p><i class="fas fa-envelope"></i> TravelBy@gmail.com</p>
+          <p><i class="fas fa-clock"></i> 8:00 - 18:00</p>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+          <h3>Новости</h3>
+          <p>Будь вкурсе всех новостей</p>
+          <form action="" id="form">
+            <input
+              type="email"
+              name=""
+              placeholder="Введите email"
+              class="email"
+              id=""
+            />
+            <input type="submit" value="Подписаться" class="btn" id="b" />
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        offset: 150,
+      });
+    </script>
+  </body>
+</html>
